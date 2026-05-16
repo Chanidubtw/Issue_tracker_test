@@ -1,0 +1,114 @@
+{
+  "issues": [
+    {
+      "id": "issue-001",
+      "title": "App crashes on login with special characters",
+      "description": "When users enter special characters like @, #, $ in the password field, the app crashes with an unhandled exception. Reproducible on both iOS and Android.",
+      "status": "open",
+      "priority": "critical",
+      "assignee": "Alice Johnson",
+      "createdAt": "2026-05-01T08:00:00.000Z",
+      "updatedAt": "2026-05-01T08:00:00.000Z",
+      "isSynced": true
+    },
+    {
+      "id": "issue-002",
+      "title": "Dashboard charts not loading on slow networks",
+      "description": "Under 3G conditions, the dashboard pie chart remains in a loading state indefinitely. Timeout handling is missing.",
+      "status": "in_progress",
+      "priority": "high",
+      "assignee": "Bob Smith",
+      "createdAt": "2026-05-02T09:30:00.000Z",
+      "updatedAt": "2026-05-05T14:00:00.000Z",
+      "isSynced": true
+    },
+    {
+      "id": "issue-003",
+      "title": "Profile image upload fails silently",
+      "description": "Uploading a profile image larger than 5MB fails without showing any error message to the user. Expected: show a clear error or compress the image.",
+      "status": "open",
+      "priority": "medium",
+      "assignee": "Carol White",
+      "createdAt": "2026-05-03T11:00:00.000Z",
+      "updatedAt": "2026-05-03T11:00:00.000Z",
+      "isSynced": true
+    },
+    {
+      "id": "issue-004",
+      "title": "Dark mode colors incorrect in settings screen",
+      "description": "Several text labels in the Settings screen remain black even when dark mode is active, making them unreadable.",
+      "status": "resolved",
+      "priority": "low",
+      "assignee": "David Lee",
+      "createdAt": "2026-05-04T10:00:00.000Z",
+      "updatedAt": "2026-05-10T16:00:00.000Z",
+      "isSynced": true
+    },
+    {
+      "id": "issue-005",
+      "title": "Pagination broken on issue list — page 3 skips to page 5",
+      "description": "When navigating through the issue list, tapping Next on page 3 incorrectly loads page 5. Regression introduced in v1.2.0.",
+      "status": "in_progress",
+      "priority": "high",
+      "assignee": "Eve Martinez",
+      "createdAt": "2026-05-05T13:00:00.000Z",
+      "updatedAt": "2026-05-06T09:00:00.000Z",
+      "isSynced": true
+    },
+    {
+      "id": "issue-006",
+      "title": "Search results not updating in real-time",
+      "description": "The search bar on the issue list screen only updates results on form submit, not on each keystroke as designed.",
+      "status": "open",
+      "priority": "medium",
+      "assignee": null,
+      "createdAt": "2026-05-06T08:30:00.000Z",
+      "updatedAt": "2026-05-06T08:30:00.000Z",
+      "isSynced": true
+    },
+    {
+      "id": "issue-007",
+      "title": "Session expires but no redirect to login",
+      "description": "After the JWT token expires, API calls return 401 but the user is not redirected to the login screen. They see raw error messages instead.",
+      "status": "resolved",
+      "priority": "critical",
+      "assignee": "Frank Brown",
+      "createdAt": "2026-05-07T14:00:00.000Z",
+      "updatedAt": "2026-05-11T10:00:00.000Z",
+      "isSynced": true
+    },
+    {
+      "id": "issue-008",
+      "title": "Notification badge count incorrect after read",
+      "description": "After marking notifications as read, the badge count on the home tab does not decrement. Requires app restart to clear.",
+      "status": "open",
+      "priority": "low",
+      "assignee": "Grace Kim",
+      "createdAt": "2026-05-08T09:00:00.000Z",
+      "updatedAt": "2026-05-08T09:00:00.000Z",
+      "isSynced": true
+    },
+    {
+      "id": "issue-009",
+      "title": "Export to CSV missing timezone offset in dates",
+      "description": "Exported CSV files show dates without timezone information, causing confusion for international teams. Should include UTC offset.",
+      "status": "closed",
+      "priority": "medium",
+      "assignee": "Henry Zhang",
+      "createdAt": "2026-05-09T11:30:00.000Z",
+      "updatedAt": "2026-05-12T15:00:00.000Z",
+      "isSynced": true
+    },
+    {
+      "id": "issue-010",
+      "title": "Pull-to-refresh crashes on empty list",
+      "description": "When the issue list is empty and the user pulls to refresh, the app throws a RangeError. Needs guard for empty state before refresh logic.",
+      "status": "in_progress",
+      "priority": "high",
+      "assignee": "Iris Patel",
+      "createdAt": "2026-05-10T16:00:00.000Z",
+      "updatedAt": "2026-05-13T09:30:00.000Z",
+      "isSynced": true
+    }
+  ]
+}
